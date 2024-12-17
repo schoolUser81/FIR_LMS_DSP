@@ -131,3 +131,27 @@ Pour implémenter le filtre FIR-LMS sur un FPGA tel qu’un Zynq, il faut géné
 
 En conclusion, nous avons réalisé le développement et la validation d’un filtre FIR-LMS sur FPGA à l’aide de MATLAB et System Generator for DSP. Nous avons également pu faire l’optimisation de ce filtre avec les techniques de relaxed-lookahead et de retiming. Puis, nous avons pu accroître nos connaissances en faisant la gestion du projet dans un dépôt GitHub. Ce projet aura donc permis de faire l’exploration du filtre FIR-LMS avec la System Generator for DSP et de comparer ces résultats avec les précédents laboratoires sur Vivado HLS et HDL. 
 
+
+# Pratiques de publication du code  
+
+## Versions et publications du code  
+- Le code source sera versionné en utilisant les tags GitHub et les GitHub Releases.  
+- Les mises à jour majeures seront taguées comme `v1.x`, `v2.x`, tandis que les corrections mineures seront marquées comme `v1.x.x`.  
+
+## Gestion des dysfonctionnements du code  
+- Les bugs seront suivis via **GitHub Issues**.  
+- Tout problème signalé sera traité en priorité en suivant ces étapes :  
+  1. Reconnaître le problème via GitHub.  
+  2. Enquêter et reproduire le problème.  
+  3. Publier un correctif dans une nouvelle version.  
+
+## Alternatives pour la publication du code  
+- **Publication manuelle** : Le code est téléchargé périodiquement après des mises à jour importantes.  
+- **Intégration Continue (CI)** : Automatisation des publications avec **GitHub Actions** pour garantir des versions stables et fonctionnelles.  
+
+## Responsabilités du mainteneur  
+- En tant que responsable, je m’engage à :  
+  - Maintenir le code à jour et stable.  
+  - Répondre aux bugs signalés par la communauté via des correctifs ou des améliorations.  
+  - Faciliter les contributions et collaborer à la résolution des problèmes.  
+
